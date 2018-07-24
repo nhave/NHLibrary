@@ -1,0 +1,15 @@
+//---Tooltip---//
+tooltip.nhlib.details.shift1=Hold
+tooltip.nhlib.details.shift2=Shift
+tooltip.nhlib.details.shift3=for Details
+
+//---Config---//
+key.nhlib.category=NHAVE's Mods
+key.nhlib.toggleitem=Held Item Mode
+cfg.nhlib.title.main=NHLib Configuration Menu
+cfg.nhlib.title.client=NHLib Client Configs
+cfg.nhlib.entry.client=Client Config
+cfg.nhlib.entry.client.tooltip=All Client Options
+cfg.nhlib.title.common=NHLib Common Configs
+cfg.nhlib.entry.common=Common Config
+cfg.nhlib.entry.common.tooltip=All Common Options
