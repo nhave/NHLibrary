@@ -50,7 +50,8 @@ public class ItemHelper
 		TileEntity tile = world.getTileEntity(blockPos);
 		
 		block.harvestBlock(world, player, blockPos, blockState, tile, player.getHeldItemMainhand());
-    	block.onBlockHarvested(world, blockPos, blockState, player);
+    	//block.onBlockHarvested(world, blockPos, blockState, player);
+		block.removedByPlayer(blockState, world, blockPos, player, true);
 	    world.setBlockToAir(blockPos);
 	}
 	
